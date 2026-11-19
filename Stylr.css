@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  color:#212529;
+  background: #ebebeb;
+}
+
+
+/* Navbar */
+.store-navbar {
+  min-height: 72px;
+  background: #006fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.store-navbar .navbar-brand {
+  color: #ffffff;
+}
+
+.store-navbar .navbar-brand:hover {
+  color: #ffffff;
+}
+
+.store-navbar .nav-link {
+  padding: .7rem .35rem !important;
+  color: rgba(255, 255, 255, 0.68);
+  font-size: .9rem;
+  font-weight: 600;
+  transition: color .2s ease;
+}
+
+.store-navbar .nav-link:hover,
+.store-navbar .nav-link.active {
+  color: #f7f5f5;
+}
+
+/* main section */
+.guestbook-section {
+    background: #ffffff;
+    min-height: 550px;
+    padding: 45px 0;
+}
+
+.guestbook-section .card-header {
+    padding: 15px;
+}
+
+.guestbook-section .card-body {
+    padding: 24px;
+}
+
+.messages-container {
+    background: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 20px;
+    min-height: 365px;
+}
+
+.messages-container h5 {
+    color: #6c757d;
+    font-weight: 600;
+}
+
+#messageList {
+    margin-top: 15px;
+}
+
+#messageList .card {
+    border: none;
+    border-radius: 5px;
+}
+
+#messageList .card-body {
+    padding: 15px;
+}
+
+#messageList h6 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* footer */
+.store-footer {
+    background: #212529;
+    color: #ffffff;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.store-footer h6 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    margin-bottom: 18px;
+}
+
+.social-links a {
+    color: #ffffff;
+    font-size: 24px;
+    transition: color 0.2s ease;
+}
+
+.social-links a:hover {
+    color: #0d6efd;
+}
+
+.copyright {
+    color: #6c757d;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
